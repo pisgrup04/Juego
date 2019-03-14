@@ -7,5 +7,14 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="MistralStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:fontFamily">@font/mistral</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">@color/colorMistral</item>
+    </style>
 
 </resources>
