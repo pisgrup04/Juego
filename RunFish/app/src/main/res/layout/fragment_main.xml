@@ -4,19 +4,43 @@
                                              xmlns:tools="http://schemas.android.com/tools"
                                              android:layout_width="match_parent"
                                              android:layout_height="match_parent"
-                                             tools:context=".MainFragment" android:id="@+id/constraintLayout">
+                                             tools:context=".MainFragment" android:id="@+id/constraintLayout"
+                                             android:background="@drawable/fons">
     <Button
             android:text="SIGN IN"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonSignIn"
-            tools:layout_editor_absoluteY="318dp" tools:layout_editor_absoluteX="162dp"/>
+            android:visibility="visible"
+            android:background="@drawable/fusta" android:paddingTop="13dp"
+            tools:layout_editor_absoluteY="296dp" tools:layout_editor_absoluteX="161dp"/>
     <Button
             android:text="ENTER"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/buttonEnter"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/buttonSignIn"
-            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintEnd_toEndOf="parent"/>
+            android:background="@drawable/fusta"
+            tools:layout_editor_absoluteY="296dp" tools:layout_editor_absoluteX="446dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:background="@drawable/tablon_up" android:hint="Username"
+            tools:layout_editor_absoluteY="167dp"
+            tools:layout_editor_absoluteX="259dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:background="@drawable/tablon" android:hint="Password"
+            tools:layout_editor_absoluteY="217dp" tools:layout_editor_absoluteX="259dp"/>
+    <ImageView
+            android:src="@drawable/anemone"
+            android:layout_width="64dp"
+            android:layout_height="52dp" tools:layout_editor_absoluteY="95dp"
+            tools:layout_editor_absoluteX="342dp" android:id="@+id/imageView2"/>
 </android.support.constraint.ConstraintLayout>

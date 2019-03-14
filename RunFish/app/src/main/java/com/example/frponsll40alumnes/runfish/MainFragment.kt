@@ -25,6 +25,7 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         buttonEnter.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_enterFragment))
+        buttonSignIn.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_signInFragment))
     }
 
 
