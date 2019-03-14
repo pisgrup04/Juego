@@ -42,6 +42,6 @@ dependencies {
     //implementation 'androidx.navigation:navigation-fragment-ktx:1.0.0-alpha01'
     // For Kotlin use navigation-fragment-ktx
     //noinspection GradleDependency
-    //implementation 'androidx.navigation:navigation-ui-ktx:1.0.0-alpha01'
+    implementation 'android.arch.navigation:navigation-ui-ktx:1.0.0-alpha01'
     // For Kotlin use navigation-ui-ktx
 }

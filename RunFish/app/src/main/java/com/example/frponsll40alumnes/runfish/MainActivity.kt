@@ -14,9 +14,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         //setContentView(R.layout.activity_main)
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
-        binding.buttonEnter.setOnClickListener{
+        //binding.buttonEnter.setOnClickListener{
 
-        }
+        //}
+
+
+
+
+
     }
 
 
