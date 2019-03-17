@@ -13,6 +13,4 @@
     <string name="email_text">Email</string>
     <string name="password_value">Password</string>
     <string name="Sign_in_value">Sign in</string>
-    <string name="invite_friend">Invite friend</string>
-    <string name="invite">INVITE</string>
 </resources>
