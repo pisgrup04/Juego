@@ -16,7 +16,7 @@
             app:layout_constraintTop_toBottomOf="@+id/text_password" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/button_enter"/>
     <Button
-            android:text="@string/enter"
+            android:text="potatoe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button_enter"
