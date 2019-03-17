@@ -8,7 +8,7 @@
                                              android:background="@drawable/fons"
 >
     <Button
-            android:text="@string/sign_in"
+            android:text="Potatox"
             android:id="@+id/button_SignIn"
             android:background="@drawable/fusta"
             style="@style/MistralStyle"
@@ -16,7 +16,7 @@
             app:layout_constraintTop_toBottomOf="@+id/text_password" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/button_enter"/>
     <Button
-            android:text="potatoe"
+            android:text="potipoti"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button_enter"
