@@ -14,4 +14,6 @@
               android:label="fragment_sign_in" tools:layout="@layout/fragment_sign_in"/>
     <fragment android:id="@+id/enterFragment" android:name="com.example.frponsll40alumnes.runfish.enterFragment"
               android:label="fragment_enter" tools:layout="@layout/fragment_enter"/>
+    <fragment android:id="@+id/friendsFragment" android:name="com.example.frponsll40alumnes.runfish.FriendsFragment"
+              android:label="fragment_friends" tools:layout="@layout/fragment_friends"/>
 </navigation>
