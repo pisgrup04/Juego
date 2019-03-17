@@ -20,6 +20,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="friendsFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-320" />
+                            <option name="y" value="-71" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="mainFragment">
                     <value>
                       <LayoutPositions>
@@ -54,6 +66,15 @@
                             <option name="x" value="318" />
                             <option name="y" value="-124" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_signInFragment_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
