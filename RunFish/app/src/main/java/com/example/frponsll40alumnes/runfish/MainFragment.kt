@@ -24,8 +24,8 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        buttonEnter.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_enterFragment))
-        buttonSignIn.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_signInFragment))
+        button_enter.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_enterFragment))
+        button_SignIn.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_signInFragment))
     }
 
 
