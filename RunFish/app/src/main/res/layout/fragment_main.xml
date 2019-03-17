@@ -8,7 +8,7 @@
                                              android:background="@drawable/fons"
 >
     <Button
-            android:text="PATATA"
+            android:text="@string/sign_in"
             android:id="@+id/button_SignIn"
             android:background="@drawable/fusta"
             style="@style/MistralStyle"
