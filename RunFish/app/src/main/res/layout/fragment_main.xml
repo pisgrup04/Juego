@@ -8,7 +8,11 @@
                                              android:background="@drawable/fons"
 >
     <Button
-            android:text="PATATA"
+<<<<<<< HEAD
+            android:text="cebolla"
+=======
+            android:text="@string/sign_in"
+>>>>>>> b68aa705b2cc29e287b6b6a5600ceeb8b0dbfcb3
             android:id="@+id/button_SignIn"
             android:background="@drawable/fusta"
             style="@style/MistralStyle"
@@ -16,16 +20,17 @@
             app:layout_constraintTop_toBottomOf="@+id/text_password" app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toStartOf="@+id/button_enter"/>
     <Button
-            android:text="potatoe"
+            android:text="cebolla2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/button_enter"
             android:background="@drawable/fusta"
             style="@style/MistralStyle"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="40dp"
             app:layout_constraintTop_toBottomOf="@+id/text_password"
             app:layout_constraintStart_toEndOf="@+id/button_SignIn"
-            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"/>
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="60dp"/>
     <TextView
             android:text="@string/run"
             android:layout_width="101dp"
