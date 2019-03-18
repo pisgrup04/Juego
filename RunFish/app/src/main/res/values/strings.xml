@@ -14,4 +14,6 @@
     <string name="password_value">Password</string>
     <string name="Sign_in_value">Sign in</string>
     <string name="username_text">Username</string>
+    <string name="corda1">corda1</string>
+    <string name="corda2">corda2</string>
 </resources>

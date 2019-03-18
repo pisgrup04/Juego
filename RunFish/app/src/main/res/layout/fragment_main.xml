@@ -54,7 +54,7 @@
             app:layout_constraintTop_toBottomOf="@+id/text_username"
             app:layout_constraintBottom_toTopOf="@+id/text_password" app:layout_constraintVertical_bias="1.0"
             app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="276dp"
-    />
+            android:contentDescription="@string/corda2"/>
     <ImageView
             android:src="@drawable/corda"
             android:layout_width="wrap_content"
@@ -63,7 +63,8 @@
             android:layout_marginTop="8dp"
             app:layout_constraintTop_toBottomOf="@+id/text_username"
             app:layout_constraintBottom_toTopOf="@+id/text_password" app:layout_constraintVertical_bias="0.571"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="284dp"/>
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="284dp"
+            android:contentDescription="@string/corda1"/>
     <TextView
             android:text="@string/fish"
             android:layout_width="110dp"
@@ -83,15 +84,16 @@
             app:layout_constraintEnd_toEndOf="parent" android:id="@+id/text_username" style="@style/MistralStyle"
             android:hint="@string/username" android:background="@drawable/new_tablon" android:textAlignment="center"
             app:layout_constraintTop_toBottomOf="@+id/image_nemo"
-            app:layout_constraintHorizontal_bias="0.501" android:layout_marginTop="36dp"/>
+            app:layout_constraintHorizontal_bias="0.501" android:layout_marginTop="36dp"
+            android:importantForAutofill="no"/>
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:inputType="textPersonName"
             android:ems="10"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" android:id="@+id/text_password" style="@style/MistralStyle"
             android:hint="@string/password" android:background="@drawable/new_tablon_izq" android:textAlignment="center"
             app:layout_constraintHorizontal_bias="0.501"
-            app:layout_constraintTop_toBottomOf="@+id/text_username" android:layout_marginTop="36dp"/>
+            app:layout_constraintTop_toBottomOf="@+id/text_username" android:layout_marginTop="36dp"
+            android:inputType="textPassword" android:importantForAutofill="no"/>
 </android.support.constraint.ConstraintLayout>
