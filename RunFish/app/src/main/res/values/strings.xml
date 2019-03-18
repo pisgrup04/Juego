@@ -16,4 +16,12 @@
     <string name="username_text">Username</string>
     <string name="corda1">corda1</string>
     <string name="corda2">corda2</string>
+    <string name="description_image_google">Google logo</string>
+    <string name="description_user_image">User image</string>
+    <string name="singleplayer">SINGLEPLAYER</string>
+    <string name="resume">RESUME</string>
+    <string name="levels">LEVELS</string>
+    <string name="freemode">FREE MODE</string>
+    <string name="description_image_corda">Imatge corda</string>
+    <string name="description_image_singleplayer">Imatge tabla singleplayer</string>
 </resources>

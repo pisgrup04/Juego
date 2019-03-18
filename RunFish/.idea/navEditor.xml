@@ -79,6 +79,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="singlePlayerFragment2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-704" />
+                            <option name="y" value="-243" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </LayoutPositions>

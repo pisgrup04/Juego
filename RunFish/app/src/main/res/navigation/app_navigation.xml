@@ -20,4 +20,7 @@
               android:label="fragment_enter" tools:layout="@layout/fragment_enter"/>
     <fragment android:id="@+id/friendsFragment" android:name="com.example.frponsll40alumnes.runfish.FriendsFragment"
               android:label="fragment_friends" tools:layout="@layout/fragment_friends"/>
+    <fragment android:id="@+id/singlePlayerFragment2"
+              android:name="com.example.frponsll40alumnes.runfish.SinglePlayerFragment"
+              android:label="fragment_single_player" tools:layout="@layout/fragment_single_player"/>
 </navigation>
