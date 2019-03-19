@@ -24,4 +24,10 @@
     <string name="freemode">FREE MODE</string>
     <string name="description_image_corda">Imatge corda</string>
     <string name="description_image_singleplayer">Imatge tabla singleplayer</string>
+    <string name="menu">MENU</string>
+    <string name="multiplayer">MULTIPLAYER</string>
+    <string name="shop">SHOP</string>
+    <string name="stats">STATS</string>
+    <string name="options">OPTIONS</string>
+    <string name="users_ini">0</string>
 </resources>
