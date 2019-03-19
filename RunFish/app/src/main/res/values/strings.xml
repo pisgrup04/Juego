@@ -42,6 +42,10 @@
     <string name="options">OPTIONS</string>
     <string name="users_ini">0</string>
     <string name="invite">INVITE</string>
+    <string name="musica">MUSICA</string>
+    <string name="sounds">SOUNDS</string>
+    <string name="vibracion">VIBRATION</string>
+    <string name="language">LANGUAGE</string>
     <string name="description_image_cross">Cross image</string>
     <string name="total_fish">TOTAL FISH:</string>
     <string name="plankton_collected">PLANKTON COLLECTED:</string>
@@ -49,5 +53,8 @@
     <string name="murdered_fish">MURDERED FISH:</string>
     <string name="max_distance_traveled">MAX DISTANCE TRAVELED:</string>
     <string name="number_zero">0</string>
-
+    <string name="go">GO!</string>
+    <string name="image_player2">Image Player2</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_1">Player 1</string>
 </resources>
