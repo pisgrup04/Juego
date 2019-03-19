@@ -6,17 +6,10 @@ import android.support.v4.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.navigation.Navigation
+import kotlinx.android.synthetic.main.fragment_levels.*
 
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- *
- */
 class levelsFragment : Fragment() {
 
     override fun onCreateView(
@@ -27,5 +20,13 @@ class levelsFragment : Fragment() {
         return inflater.inflate(R.layout.fragment_levels, container, false)
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
 
+        //button_comeback_singleplayer3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_multiplayerFragment_to_levelsFragment))
+        /*
+        PREGUNTAR AL PROFESOR ---------------------------------------- URGENTE! (Hem d'anar a singleplayer o multiplayer depenent d'on vinguem)
+         */
+
+    }
 }

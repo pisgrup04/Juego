@@ -46,5 +46,9 @@
     <string name="sounds">SOUNDS</string>
     <string name="vibracion">VIBRATION</string>
     <string name="language">LANGUAGE</string>
-
+    <string name="description_image_cross">Cross image</string>
+    <string name="go">GO!</string>
+    <string name="image_player2">Image Player2</string>
+    <string name="player_2">Player 2</string>
+    <string name="player_1">Player 1</string>
 </resources>
