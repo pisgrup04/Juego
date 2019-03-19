@@ -30,4 +30,5 @@
     <string name="stats">STATS</string>
     <string name="options">OPTIONS</string>
     <string name="users_ini">0</string>
+    <string name="invite">INVITE</string>
 </resources>
