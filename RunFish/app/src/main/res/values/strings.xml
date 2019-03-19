@@ -47,6 +47,12 @@
     <string name="vibracion">VIBRATION</string>
     <string name="language">LANGUAGE</string>
     <string name="description_image_cross">Cross image</string>
+    <string name="total_fish">TOTAL FISH:</string>
+    <string name="plankton_collected">PLANKTON COLLECTED:</string>
+    <string name="number_of_deaths">NUMBER OF DEATHS:</string>
+    <string name="murdered_fish">MURDERED FISH:</string>
+    <string name="max_distance_traveled">MAX DISTANCE TRAVELED:</string>
+    <string name="number_zero">0</string>
     <string name="go">GO!</string>
     <string name="image_player2">Image Player2</string>
     <string name="player_2">Player 2</string>

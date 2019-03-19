@@ -55,18 +55,6 @@
                       </LayoutPositions>
                     </value>
                   </entry>
-                  <entry key="levelsFragment2">
-                    <value>
-                      <LayoutPositions>
-                        <option name="myPosition">
-                          <Point>
-                            <option name="x" value="168" />
-                            <option name="y" value="12" />
-                          </Point>
-                        </option>
-                      </LayoutPositions>
-                    </value>
-                  </entry>
                   <entry key="mainFragment">
                     <value>
                       <LayoutPositions>
@@ -120,6 +108,11 @@
                               </value>
                             </entry>
                             <entry key="action_menuFragment_to_singlePlayerFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_menuFragment_to_statsFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -205,6 +198,27 @@
                               </value>
                             </entry>
                             <entry key="action_singlePlayerFragment_to_menuFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="statsFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-777" />
+                            <option name="y" value="-848" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_statsFragment_to_menuFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
