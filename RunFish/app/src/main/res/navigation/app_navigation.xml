@@ -26,6 +26,7 @@
                 app:destination="@+id/singlePlayerFragment"/>
         <action android:id="@+id/action_menuFragment_to_multiplayerFragment" app:destination="@id/multiplayerFragment"/>
         <action android:id="@+id/action_menuFragment_to_friendsFragment" app:destination="@id/friendsFragment"/>
+        <action android:id="@+id/action_menuFragment_to_options" app:destination="@id/options"/>
     </fragment>
 
     <fragment android:id="@+id/singlePlayerFragment"
@@ -45,7 +46,9 @@
     </fragment>
 
     <fragment android:id="@+id/options" android:name="com.example.frponsll40alumnes.runfish.options"
-              android:label="fragment_options" tools:layout="@layout/fragment_options"/>
+              android:label="fragment_options" tools:layout="@layout/fragment_options">
+        <action android:id="@+id/action_options_to_menuFragment" app:destination="@id/menuFragment"/>
+    </fragment>
 
     <fragment android:id="@+id/levelsFragment2" android:name="com.example.frponsll40alumnes.runfish.levelsFragment"
               android:label="fragment_levels" tools:layout="@layout/fragment_levels"/>

@@ -114,6 +114,11 @@
                                 <LayoutPositions />
                               </value>
                             </entry>
+                            <entry key="action_menuFragment_to_options">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_menuFragment_to_singlePlayerFragment">
                               <value>
                                 <LayoutPositions />
@@ -155,8 +160,8 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="12" />
-                            <option name="y" value="12" />
+                            <option name="x" value="-589" />
+                            <option name="y" value="158" />
                           </Point>
                         </option>
                       </LayoutPositions>
