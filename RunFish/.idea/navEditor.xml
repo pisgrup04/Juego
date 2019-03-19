@@ -58,6 +58,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="menuFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-404" />
+                            <option name="y" value="-172" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="signInFragment">
                     <value>
                       <LayoutPositions>
