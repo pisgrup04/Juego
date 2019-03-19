@@ -69,7 +69,7 @@
             app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/layout_constrait_table"
             android:layout_height="276dp" app:layout_constraintHorizontal_bias="0.877"
             app:layout_constraintVertical_bias="0.322">
-        <EditText
+        <TextView
                 android:layout_width="130dp"
                 android:layout_height="45dp"
                 android:inputType="textPersonName"
@@ -79,7 +79,7 @@
                 app:layout_constraintStart_toStartOf="parent"
                 android:layout_marginTop="60dp"
                 app:layout_constraintTop_toTopOf="parent"/>
-        <EditText
+        <TextView
                 android:layout_width="130dp"
                 android:layout_height="45dp"
                 android:inputType="textPersonName"
@@ -91,7 +91,7 @@
                 app:layout_constraintStart_toStartOf="@+id/editText_player"
                 app:layout_constraintHorizontal_bias="0.0"/>
         <ImageView
-                android:src="@drawable/bandera_catalunya"
+                android:src="@drawable/rectangulo"
                 android:layout_width="80dp"
                 android:layout_height="45dp" android:id="@+id/imageView_player1"
                 android:contentDescription="@string/image_player2"
@@ -100,7 +100,7 @@
                 app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@+id/editText_player"
                 android:layout_marginStart="8dp"/>
         <ImageView
-                android:src="@drawable/bandera_catalunya"
+                android:src="@drawable/rectangulo"
                 android:layout_width="80dp"
                 android:layout_height="45dp" android:id="@+id/imageView_player2"
                 android:contentDescription="@string/image_player2" android:layout_marginTop="8dp"
