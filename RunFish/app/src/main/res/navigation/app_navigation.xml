@@ -20,9 +20,21 @@
               android:label="fragment_enter" tools:layout="@layout/fragment_enter"/>
     <fragment android:id="@+id/friendsFragment" android:name="com.example.frponsll40alumnes.runfish.FriendsFragment"
               android:label="fragment_friends" tools:layout="@layout/fragment_friends"/>
+    <fragment android:id="@+id/menuFragment" android:name="com.example.frponsll40alumnes.runfish.menuFragment"
+              android:label="fragment_menu" tools:layout="@layout/fragment_menu">
+        <action android:id="@+id/action_menuFragment_to_singlePlayerFragment2"
+                app:destination="@id/singlePlayerFragment2"/>
+        <action android:id="@+id/action_menuFragment_to_statsFragment" app:destination="@id/statsFragment"/>
+    </fragment>
+
     <fragment android:id="@+id/singlePlayerFragment2"
               android:name="com.example.frponsll40alumnes.runfish.SinglePlayerFragment"
               android:label="fragment_single_player" tools:layout="@layout/fragment_single_player"/>
+
     <fragment android:id="@+id/levelsFragment2" android:name="com.example.frponsll40alumnes.runfish.levelsFragment"
               android:label="fragment_levels" tools:layout="@layout/fragment_levels"/>
+
+    <fragment android:id="@+id/statsFragment" android:name="com.example.frponsll40alumnes.runfish.StatsFragment"
+              android:label="fragment_stats" tools:layout="@layout/fragment_stats"/>
+
 </navigation>
