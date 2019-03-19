@@ -29,4 +29,6 @@
     <fragment android:id="@+id/singlePlayerFragment2"
               android:name="com.example.frponsll40alumnes.runfish.SinglePlayerFragment"
               android:label="fragment_single_player" tools:layout="@layout/fragment_single_player"/>
+    <fragment android:id="@+id/options" android:name="com.example.frponsll40alumnes.runfish.options"
+              android:label="fragment_options" tools:layout="@layout/fragment_options"/>
 </navigation>
