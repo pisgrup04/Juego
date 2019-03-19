@@ -35,6 +35,7 @@
         <action android:id="@+id/action_singlePlayerFragment_to_levelsFragment" app:destination="@id/levelsFragment"/>
     </fragment>
 
+
     <fragment android:id="@+id/levelsFragment" android:name="com.example.frponsll40alumnes.runfish.levelsFragment"
               android:label="fragment_levels" tools:layout="@layout/fragment_levels">
         <action android:id="@+id/action_levelsFragment_to_singlePlayerFragment"
@@ -42,6 +43,13 @@
         <action android:id="@+id/action_levelsFragment_to_multiplayerFragment"
                 app:destination="@id/multiplayerFragment"/>
     </fragment>
+
+    <fragment android:id="@+id/options" android:name="com.example.frponsll40alumnes.runfish.options"
+              android:label="fragment_options" tools:layout="@layout/fragment_options"/>
+    
+    <fragment android:id="@+id/levelsFragment2" android:name="com.example.frponsll40alumnes.runfish.levelsFragment"
+              android:label="fragment_levels" tools:layout="@layout/fragment_levels"/>
+
 
     <fragment android:id="@+id/multiplayerFragment" android:name="com.example.frponsll40alumnes.runfish.MultiplayerFragment"
               android:label="fragment_multiplayer" tools:layout="@layout/fragment_multiplayer">
