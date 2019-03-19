@@ -51,9 +51,6 @@
         <action android:id="@+id/action_options_to_menuFragment" app:destination="@id/menuFragment"/>
     </fragment>
 
-    <fragment android:id="@+id/levelsFragment2" android:name="com.example.frponsll40alumnes.runfish.levelsFragment"
-              android:label="fragment_levels" tools:layout="@layout/fragment_levels"/>
-
     <fragment android:id="@+id/multiplayerFragment" android:name="com.example.frponsll40alumnes.runfish.MultiplayerFragment"
               android:label="fragment_multiplayer" tools:layout="@layout/fragment_multiplayer">
         <action android:id="@+id/action_multiplayerFragment_to_levelsFragment" app:destination="@id/levelsFragment"/>
