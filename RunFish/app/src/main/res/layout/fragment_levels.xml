@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".levelsFragment" android:id="@+id/constraitLayout"
+                                             android:background="@drawable/fons">
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_comeback_singleplayer3" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@drawable/flecha_izq"/>
+    <ScrollView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="150dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="150dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/scrollView2"
+            app:layout_constraintHorizontal_bias="0.0" app:layout_constraintVertical_bias="0.0">
+
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda30"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button35" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button36"
+                    app:layout_constraintStart_toStartOf="@+id/button35" android:layout_marginStart="24dp"
+                    app:layout_constraintVertical_bias="0.491"/>
+            <Button
+                    android:text="@string/level10"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button36"
+                    app:layout_constraintTop_toBottomOf="@+id/button35" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginTop="24dp" style="@style/MistralStyle"
+                    android:layout_marginBottom="24dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda29"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button35" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button34"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda28" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.576"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda28"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button34" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button35"
+                    app:layout_constraintStart_toStartOf="@+id/button34" android:layout_marginStart="24dp"
+                    app:layout_constraintVertical_bias="0.576"/>
+            <Button
+                    android:text="@string/level9"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button35"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button34" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda27"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button33" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button34"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda26" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.576"/>
+            <Button
+                    android:text="@string/level8"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button34"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button33" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda26"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="36dp"
+                    app:layout_constraintTop_toTopOf="@+id/button33"
+                    app:layout_constraintStart_toStartOf="@+id/button33" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button34" android:layout_marginStart="24dp"
+                    app:layout_constraintVertical_bias="0.193"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda25"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button36" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button35"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda30" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.491"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda24"
+                    android:contentDescription="@string/description_image_corda"
+                    app:layout_constraintStart_toStartOf="@+id/button32" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button32" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button33" android:layout_marginStart="24dp"
+                    app:layout_constraintVertical_bias="0.474"/>
+            <Button
+                    android:text="@string/level7"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button33"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button32" style="@style/MistralStyle"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent" android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda23"
+                    android:contentDescription="@string/description_image_corda"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda22" android:layout_marginStart="184dp"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/button31"
+                    android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/button32"
+                    app:layout_constraintVertical_bias="0.474"/>
+            <Button
+                    android:text="@string/level6"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button32"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button31" style="@style/MistralStyle"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent" android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda22"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button31" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button32"
+                    app:layout_constraintStart_toStartOf="@+id/button31" android:layout_marginStart="24dp"
+                    app:layout_constraintVertical_bias="0.491"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda21"
+                    android:contentDescription="@string/description_image_corda"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda20" android:layout_marginStart="184dp"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/button30"
+                    android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/button31"
+                    app:layout_constraintVertical_bias="0.474"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda20"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button30" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button31" android:layout_marginStart="24dp"
+                    app:layout_constraintStart_toStartOf="@+id/button30" app:layout_constraintVertical_bias="0.491"/>
+            <Button
+                    android:text="@string/level5"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button31"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button30" style="@style/MistralStyle"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent" android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda17"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button29" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button30"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda16" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.508"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda16"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button29" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button30" android:layout_marginStart="24dp"
+                    app:layout_constraintStart_toStartOf="@+id/button29" app:layout_constraintVertical_bias="0.508"/>
+            <Button
+                    android:text="@string/level4"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button30"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button29" style="@style/MistralStyle"
+                    app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+                    app:layout_constraintEnd_toEndOf="parent" android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="0dp"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda14"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button26" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button29"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda13" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.542"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="6dp"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda13"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button26" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button29" android:layout_marginStart="24dp"
+                    app:layout_constraintStart_toStartOf="@+id/button26" app:layout_constraintVertical_bias="0.542"/>
+            <Button
+                    android:text="@string/level3"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button29"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button26" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda12"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button25" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button26"
+                    app:layout_constraintVertical_bias="0.508"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda11" android:layout_marginStart="184dp"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda11"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="32dp"
+                    app:layout_constraintTop_toTopOf="@+id/button25" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button26" app:layout_constraintVertical_bias="0.171"
+                    android:layout_marginStart="24dp" app:layout_constraintStart_toStartOf="@+id/button25"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda10"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="@+id/button24" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="@+id/button25"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda7" android:layout_marginStart="184dp"
+                    app:layout_constraintVertical_bias="0.542"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda8"
+                    android:contentDescription="@string/description_image_corda" tools:layout_editor_absoluteY="517dp"
+                    app:layout_constraintStart_toEndOf="@+id/image_view_corda24" android:layout_marginStart="184dp"/>
+            <Button
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button24"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+                    android:layout_marginTop="50dp" app:layout_constraintTop_toTopOf="parent"
+                    android:text="@string/Tutorial" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+            <ImageView
+                    android:src="@drawable/corda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="45dp" android:id="@+id/image_view_corda7"
+                    android:contentDescription="@string/description_image_corda"
+                    android:layout_marginTop="40dp"
+                    app:layout_constraintTop_toTopOf="@+id/button24"
+                    app:layout_constraintStart_toStartOf="@+id/button24"
+                    android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="@+id/button25"
+                    app:layout_constraintVertical_bias="0.0" android:layout_marginStart="24dp"/>
+            <Button
+                    android:text="@string/level1"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button25"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button24" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+            <Button
+                    android:text="@string/level2"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content" android:id="@+id/button26"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintTop_toBottomOf="@+id/button25" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" style="@style/MistralStyle"
+                    android:background="@drawable/new_tablon"/>
+        </android.support.constraint.ConstraintLayout>
+    </ScrollView>
+    <TextView
+            android:text="@string/levels"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="0dp"
+            android:id="@+id/textView" android:background="@drawable/tablon"
+            android:paddingTop="20dp" android:textAlignment="center" style="@style/MistralStyle"
+            android:layout_marginStart="24dp" app:layout_constraintStart_toStartOf="parent"/>
+</android.support.constraint.ConstraintLayout>
