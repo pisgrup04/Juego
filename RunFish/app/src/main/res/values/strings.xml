@@ -42,5 +42,6 @@
     <string name="options">OPTIONS</string>
     <string name="users_ini">0</string>
     <string name="invite">INVITE</string>
+    <string name="description_image_cross">Cross image</string>
 
 </resources>
