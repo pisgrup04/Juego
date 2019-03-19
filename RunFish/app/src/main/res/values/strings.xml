@@ -43,5 +43,11 @@
     <string name="users_ini">0</string>
     <string name="invite">INVITE</string>
     <string name="description_image_cross">Cross image</string>
+    <string name="total_fish">TOTAL FISH:</string>
+    <string name="plankton_collected">PLANKTON COLLECTED:</string>
+    <string name="number_of_deaths">NUMBER OF DEATHS:</string>
+    <string name="murdered_fish">MURDERED FISH:</string>
+    <string name="max_distance_traveled">MAX DISTANCE TRAVELED:</string>
+    <string name="number_zero">0</string>
 
 </resources>
