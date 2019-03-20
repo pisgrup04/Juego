@@ -25,7 +25,6 @@ class MainFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         button_enter.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_menuFragment))
-
         button_SignIn.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_mainFragment_to_signInFragment))
     }
 

@@ -12,8 +12,6 @@ import kotlinx.android.synthetic.main.fragment_friends.*
 
 
 class FriendsFragment : Fragment() {
-
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

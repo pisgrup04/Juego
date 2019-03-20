@@ -11,7 +11,6 @@ import kotlinx.android.synthetic.main.fragment_levels.*
 
 
 class levelsFragment : Fragment() {
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -24,9 +23,5 @@ class levelsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //button_comeback_singleplayer3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_multiplayerFragment_to_levelsFragment))
-        /*
-        PREGUNTAR AL PROFESOR ---------------------------------------- URGENTE! (Hem d'anar a singleplayer o multiplayer depenent d'on vinguem)
-         */
-
     }
 }
