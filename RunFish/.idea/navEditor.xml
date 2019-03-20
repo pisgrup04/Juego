@@ -50,6 +50,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="gameOverFragment3">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1442" />
+                            <option name="y" value="84" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="inviteFragment">
                     <value>
                       <LayoutPositions>
@@ -302,6 +314,18 @@
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="successfullFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1232" />
+                            <option name="y" value="86" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

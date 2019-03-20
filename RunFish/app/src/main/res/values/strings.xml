@@ -71,4 +71,13 @@
     <string name="description_image_grey_ball">Grey Image ball</string>
     <string name="clownfish">CLOWNFISH</string>
     <string name="Select_a_fish">SELECT A FISH</string>
+    <string name="level_complete">LEVEL COMPLETE!</string>
+    <string name="plancton_collected">PLANCTON COLLECTED:</string>
+    <string name="meters_travelled">METERS TRAVELLED:</string>
+    <string name="back">BACK</string>
+    <string name="next_level">NEXT LEVEL</string>
+    <string name="int_plancton_collected">20</string>
+    <string name="int_travelled_meters">150 METERS</string>
+    <string name="game_over">GAME_OVER</string>
+    <string name="retry">RETRY</string>
 </resources>
