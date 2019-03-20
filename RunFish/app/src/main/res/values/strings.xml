@@ -65,4 +65,8 @@
     <string name="capacity">CAPACITY</string>
     <string name="life">LIFE</string>
     <string name="speed">SPEED</string>
+    <string name="description_image_taulell">Table Image</string>
+    <string name="friend">FRIEND</string>
+    <string name="description_image_green_ball">Green image_ball</string>
+    <string name="description_image_grey_ball">Grey Image ball</string>
 </resources>
