@@ -75,5 +75,7 @@
     <string name="back">BACK</string>
     <string name="next_level">NEXT LEVEL</string>
     <string name="int_plancton_collected">20</string>
-    <string name="int_travelled_meters">150 METERS</>
+    <string name="int_travelled_meters">150 METERS</string>
+    <string name="game_over">GAME_OVER</string>
+    <string name="retry">RETRY</string>
 </resources>

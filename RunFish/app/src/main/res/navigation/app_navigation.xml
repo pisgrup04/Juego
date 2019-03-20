@@ -72,5 +72,7 @@
     <fragment android:id="@+id/successfullFragment"
               android:name="com.example.frponsll40alumnes.runfish.successfullFragment"
               android:label="fragment_successfull" tools:layout="@layout/fragment_successfull"/>
+    <fragment android:id="@+id/gameOverFragment3" android:name="com.example.frponsll40alumnes.runfish.GameOverFragment"
+              android:label="fragment_game_over" tools:layout="@layout/fragment_game_over"/>
 
 </navigation>
