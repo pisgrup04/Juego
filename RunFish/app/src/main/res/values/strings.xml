@@ -69,4 +69,6 @@
     <string name="friend">FRIEND</string>
     <string name="description_image_green_ball">Green image_ball</string>
     <string name="description_image_grey_ball">Grey Image ball</string>
+    <string name="clownfish">CLOWNFISH</string>
+    <string name="Select_a_fish">SELECT A FISH</string>
 </resources>

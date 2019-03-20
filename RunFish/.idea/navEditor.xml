@@ -8,6 +8,27 @@
             <LayoutPositions>
               <option name="myPositions">
                 <map>
+                  <entry key="fishFragment2">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1062" />
+                            <option name="y" value="-569" />
+                          </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_fishFragment2_to_singlePlayerFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="friendsFragment">
                     <value>
                       <LayoutPositions>
@@ -244,6 +265,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_singlePlayerFragment_to_fishFragment2">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_singlePlayerFragment_to_levelsFragment">
                               <value>
                                 <LayoutPositions />

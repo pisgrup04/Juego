@@ -84,7 +84,7 @@
                             android:layout_height="10dp"
                             android:id="@+id/life_bar_common_fish"
                             app:layout_constraintTop_toBottomOf="@+id/text_common_fish"
-                            app:layout_constraintStart_toEndOf="@+id/text_life1"
+                            app:layout_constraintStart_toEndOf="@+id/text_life"
                             android:max="100" android:progress="20" android:layout_marginTop="12dp"
                             android:layout_marginStart="12dp" android:progressDrawable="@drawable/life_bar"
                             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
@@ -134,23 +134,23 @@
                             android:text="@string/life"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:id="@+id/text_life1"
+                            android:id="@+id/text_life"
                             style="@style/MistralBarStyle"
                             app:layout_constraintTop_toBottomOf="@+id/text_common_fish"
                             app:layout_constraintStart_toStartOf="@+id/text_common_fish"/>
                     <TextView
                             android:text="@string/capacity"
                             android:layout_width="wrap_content"
-                            android:layout_height="wrap_content" android:id="@+id/text_capacity1"
+                            android:layout_height="wrap_content" android:id="@+id/text_capacity"
                             style="@style/MistralBarStyle"
-                            app:layout_constraintTop_toBottomOf="@+id/text_life1"
+                            app:layout_constraintTop_toBottomOf="@+id/text_life"
                             app:layout_constraintStart_toStartOf="@+id/text_common_fish"
                     />
                     <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content" android:id="@+id/text_speed1"
                             android:text="@string/speed"
-                            app:layout_constraintTop_toBottomOf="@+id/text_capacity1"
+                            app:layout_constraintTop_toBottomOf="@+id/text_capacity"
                             app:layout_constraintStart_toStartOf="@+id/text_common_fish"
                             style="@style/MistralBarStyle"/>
                 </android.support.constraint.ConstraintLayout>
