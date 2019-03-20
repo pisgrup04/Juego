@@ -17,6 +17,16 @@
         <item name="android:textColor">@color/colorMistral</item>
     </style>
 
+    <style name="MistralBarStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:paddingTop">9dp</item>
+        <item name="android:fontFamily">@font/mistral</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorMistral</item>
+    </style>
+
     <style name="scrollbar_shape_style">
         <item name="android:scrollbarAlwaysDrawVerticalTrack">true</item>
         <item name="android:scrollbarStyle">outsideOverlay</item>

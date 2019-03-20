@@ -49,15 +49,14 @@
             android:layout_height="wrap_content"
             android:id="@+id/button_comeback" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="16dp"
-            android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:background="@drawable/flecha_animation_izq" android:layout_marginTop="8dp"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.948"/>
+            android:background="@drawable/flecha_animation_izq"
+            android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"/>
     <TextView
             android:text="@string/multiplayer"
             android:layout_width="170dp"
             android:layout_height="55dp" android:id="@+id/text_Multiplayer" android:background="@drawable/tablon"
             style="@style/MistralStyle" android:paddingTop="25dp"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="24dp"
             app:layout_constraintTop_toTopOf="parent" android:textAlignment="center"/>
     <android.support.constraint.ConstraintLayout
             android:layout_width="367dp"

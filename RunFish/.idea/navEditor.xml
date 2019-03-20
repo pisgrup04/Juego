@@ -159,12 +159,29 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_options_to_mainFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_options_to_menuFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
                             </entry>
                           </map>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
+                  <entry key="shopFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="280" />
+                            <option name="y" value="-716" />
+                          </Point>
                         </option>
                       </LayoutPositions>
                     </value>

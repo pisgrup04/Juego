@@ -22,5 +22,9 @@ class options : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         button_comeback_options.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_options_to_menuFragment))
+        button_logOut.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_options_to_mainFragment))
+        /*
+        * TODO: ListenerButton de Switch, button idioma i seekbar.
+         */
     }
 }

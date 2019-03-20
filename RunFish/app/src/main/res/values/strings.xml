@@ -57,4 +57,11 @@
     <string name="image_player2">Image Player2</string>
     <string name="player_2">Player 2</string>
     <string name="player_1">Player 1</string>
+    <string name="preu_common_fish">500</string>
+    <string name="common_fish">COMMON FISH</string>
+    <string name="description_image_plankton">Plankton image</string>
+    <string name="description_image_fish">Fish image</string>
+    <string name="capacity">CAPACITY</string>
+    <string name="life">LIFE</string>
+    <string name="speed">SPEED</string>
 </resources>

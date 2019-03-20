@@ -49,6 +49,7 @@
     <fragment android:id="@+id/options" android:name="com.example.frponsll40alumnes.runfish.options"
               android:label="fragment_options" tools:layout="@layout/fragment_options">
         <action android:id="@+id/action_options_to_menuFragment" app:destination="@id/menuFragment"/>
+        <action android:id="@+id/action_options_to_mainFragment" app:destination="@id/mainFragment"/>
     </fragment>
 
     <fragment android:id="@+id/multiplayerFragment" android:name="com.example.frponsll40alumnes.runfish.MultiplayerFragment"
@@ -60,5 +61,7 @@
               android:label="fragment_stats" tools:layout="@layout/fragment_stats">
         <action android:id="@+id/action_statsFragment_to_menuFragment" app:destination="@id/menuFragment"/>
     </fragment>
+    <fragment android:id="@+id/shopFragment" android:name="com.example.frponsll40alumnes.runfish.shopFragment"
+              android:label="fragment_shop" tools:layout="@layout/fragment_shop"/>
 
 </navigation>
