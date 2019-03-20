@@ -280,6 +280,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="successfullFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="-1232" />
+                            <option name="y" value="86" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                 </map>
               </option>
             </LayoutPositions>

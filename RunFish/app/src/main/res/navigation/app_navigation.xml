@@ -69,5 +69,8 @@
         <action android:id="@+id/action_inviteFragment_to_multiplayerFragment"
                 app:destination="@id/multiplayerFragment"/>
     </fragment>
+    <fragment android:id="@+id/successfullFragment"
+              android:name="com.example.frponsll40alumnes.runfish.successfullFragment"
+              android:label="fragment_successfull" tools:layout="@layout/fragment_successfull"/>
 
 </navigation>
