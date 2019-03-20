@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+                                             tools:context=".successfullFragment" android:id="@+id/constraintLayout"
+>
+    <android.support.constraint.ConstraintLayout
+            android:layout_width="500dp"
+            android:layout_height="300dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="8dp" android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:background="@drawable/tablon_grande">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="348dp"
+                android:layout_height="243dp"
+                app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginStart="8dp" android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+                android:layout_marginEnd="8dp" android:paddingTop="30dp" android:layout_marginTop="8dp">
+
+            <ImageView
+                    android:src="@drawable/placton"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp" android:id="@+id/imageView_plancton"
+                    app:layout_constraintStart_toEndOf="@+id/textView_int_planctonCollected"
+                    android:layout_marginStart="8dp" android:layout_marginTop="16dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_levelComplete"
+                    android:contentDescription="@string/description_image_plankton"/>
+            <TextView
+                    android:text="@string/int_travelled_meters"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_int_travelled_meters"
+                    style="@style/MistralStyle"
+                    app:layout_constraintStart_toEndOf="@+id/textView_metersTravelled"
+                    android:layout_marginStart="24dp" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_int_planctonCollected"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_int_planctonCollected"
+                    android:text="@string/int_plancton_collected"
+                    style="@style/MistralStyle" app:layout_constraintStart_toEndOf="@+id/textView_planctonCollected"
+                    android:layout_marginStart="24dp" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_levelComplete"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button_back"
+                    android:background="@drawable/fusta_animation"
+                    android:text="@string/back" style="@style/MistralStyle" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_metersTravelled"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/button_next_level"
+                    android:text="@string/next_level"
+                    android:background="@drawable/fusta_animation" style="@style/MistralStyle"
+                    app:layout_constraintStart_toEndOf="@+id/button_back" android:layout_marginStart="32dp"
+                    android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/textView_metersTravelled"/>
+            <TextView
+                    android:text="@string/plancton_collected"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_planctonCollected"
+                    style="@style/MistralStyle" android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_levelComplete"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="32dp"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/textView_metersTravelled"
+                    android:text="@string/meters_travelled"
+                    style="@style/MistralStyle" app:layout_constraintStart_toStartOf="@+id/textView_planctonCollected"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toBottomOf="@+id/textView_planctonCollected"/>
+            <TextView
+                    android:text="@string/level_complete"
+                    android:layout_width="274dp"
+                    android:layout_height="wrap_content" android:id="@+id/textView_levelComplete"
+                    style="@style/MistralStyle" android:background="@drawable/fusta"
+                    app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.502"
+                    android:textAlignment="center"/>
+        </android.support.constraint.ConstraintLayout>
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>
