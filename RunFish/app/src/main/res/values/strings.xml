@@ -65,4 +65,9 @@
     <string name="capacity">CAPACITY</string>
     <string name="life">LIFE</string>
     <string name="speed">SPEED</string>
+    <string name="meters">85 METERS</string>
+    <string name="description_image_shark">shark</string>
+    <string name="description_image_mina">mina</string>
+    <string name="description_image_joystick">joystick</string>
+    <string name="description_image_pause">pause</string>
 </resources>

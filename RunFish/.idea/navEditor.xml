@@ -29,6 +29,18 @@
                       </LayoutPositions>
                     </value>
                   </entry>
+                  <entry key="gameFragment">
+                    <value>
+                      <LayoutPositions>
+                        <option name="myPosition">
+                          <Point>
+                            <option name="x" value="690" />
+                            <option name="y" value="-486" />
+                          </Point>
+                        </option>
+                      </LayoutPositions>
+                    </value>
+                  </entry>
                   <entry key="levelsFragment">
                     <value>
                       <LayoutPositions>
@@ -40,6 +52,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_levelsFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_levelsFragment_to_multiplayerFragment">
                               <value>
                                 <LayoutPositions />
@@ -218,6 +235,11 @@
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_singlePlayerFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_singlePlayerFragment_to_levelsFragment">
                               <value>
                                 <LayoutPositions />

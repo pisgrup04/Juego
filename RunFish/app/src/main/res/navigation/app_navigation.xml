@@ -35,6 +35,7 @@
               android:label="fragment_single_player" tools:layout="@layout/fragment_single_player">
         <action android:id="@+id/action_singlePlayerFragment_to_menuFragment" app:destination="@id/menuFragment"/>
         <action android:id="@+id/action_singlePlayerFragment_to_levelsFragment" app:destination="@id/levelsFragment"/>
+        <action android:id="@+id/action_singlePlayerFragment_to_gameFragment" app:destination="@id/gameFragment"/>
     </fragment>
 
 
@@ -44,6 +45,7 @@
                 app:destination="@id/singlePlayerFragment"/>
         <action android:id="@+id/action_levelsFragment_to_multiplayerFragment"
                 app:destination="@id/multiplayerFragment"/>
+        <action android:id="@+id/action_levelsFragment_to_gameFragment" app:destination="@id/gameFragment"/>
     </fragment>
 
     <fragment android:id="@+id/options" android:name="com.example.frponsll40alumnes.runfish.options"
@@ -63,5 +65,7 @@
     </fragment>
     <fragment android:id="@+id/shopFragment" android:name="com.example.frponsll40alumnes.runfish.shopFragment"
               android:label="fragment_shop" tools:layout="@layout/fragment_shop"/>
+    <fragment android:id="@+id/gameFragment" android:name="com.example.frponsll40alumnes.runfish.GameFragment"
+              android:label="fragment_game" tools:layout="@layout/fragment_game"/>
 
 </navigation>

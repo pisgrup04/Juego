@@ -23,5 +23,6 @@ class levelsFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         //button_comeback_singleplayer3.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_multiplayerFragment_to_levelsFragment))
+        button24.setOnClickListener(Navigation.createNavigateOnClickListener(R.id.action_levelsFragment_to_gameFragment))
     }
 }
