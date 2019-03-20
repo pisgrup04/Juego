@@ -12,7 +12,7 @@
             android:id="@+id/button_comeback_options" app:layout_constraintStart_toStartOf="parent"
             android:layout_marginStart="28dp"
             android:layout_marginBottom="16dp" app:layout_constraintBottom_toBottomOf="parent"
-            android:background="@drawable/flecha_izq"/>
+            android:background="@drawable/flecha_animation_izq"/>
     <android.support.constraint.ConstraintLayout
             android:layout_width="496dp"
             android:layout_height="318dp" app:layout_constraintEnd_toEndOf="parent"
@@ -128,6 +128,7 @@
                 app:layout_constraintVertical_bias="0.617"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:layout_marginEnd="8dp"
+                android:theme="@style/Switch"
                 app:layout_constraintHorizontal_bias="0.008"/>
         <Button
                 android:layout_width="28dp"

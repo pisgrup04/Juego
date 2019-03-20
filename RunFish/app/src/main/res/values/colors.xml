@@ -3,9 +3,18 @@
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
     <color name="colorAccent">#D81B60</color>
+
+    <!---Text Colors-->
     <color name="colorMistral">#353535</color>
     <color name="colorTitol">#D19B2F</color>
+
+    <!---Slide Colors-->
     <color name="colorBarraSlide1">#0047FF</color>
     <color name="colorBarraSlide2">#4D7FFF</color>
+
+    <!---Switch Colors-->
+    <color name="disable_foreground_grey">#42221F1F</color>
+    <color name="disable_thumb_grey">#1C000000</color>
+    <color name="enable_thumb_green">#0047FF</color>
 
 </resources>
