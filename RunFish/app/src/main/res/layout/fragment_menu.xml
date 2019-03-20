@@ -134,7 +134,7 @@
             android:src="@drawable/gente"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/imageButton_friends" android:background="@drawable/fusta"
+            android:id="@+id/imageButton_friends" android:background="@drawable/fusta_animation"
             android:layout_marginTop="16dp" app:layout_constraintTop_toTopOf="parent" android:paddingLeft="45dp"
             app:layout_constraintStart_toEndOf="@+id/text_view_menu" android:layout_marginStart="8dp"
             android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
