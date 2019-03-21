@@ -75,7 +75,7 @@
     <string name="description_image_green_ball">Green image_ball</string>
     <string name="description_image_grey_ball">Grey Image ball</string>
     <string name="clownfish">CLOWNFISH</string>
-    <string name="Select_a_fish">SELECT A FISH</string>
+    <string name="select_a_fish">SELECT A FISH</string>
     <string name="level_complete">LEVEL COMPLETE!</string>
     <string name="plancton_collected">PLANCTON COLLECTED:</string>
     <string name="meters_travelled">METERS TRAVELLED:</string>

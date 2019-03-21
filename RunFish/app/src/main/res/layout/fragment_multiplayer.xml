@@ -8,17 +8,23 @@
     <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
             android:id="@+id/constraint_multiplayer">
 
         <ImageView
                 android:src="@drawable/corda"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content" android:id="@+id/corda"
-                app:layout_constraintStart_toStartOf="@+id/button_levels" android:layout_marginTop="8dp"
-                app:layout_constraintTop_toTopOf="@+id/button_levels" android:layout_marginBottom="8dp"
-                app:layout_constraintBottom_toBottomOf="@+id/button_fish_multiplayer" android:layout_marginStart="20dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/corda"
+                app:layout_constraintStart_toStartOf="@+id/button_levels"
+                android:layout_marginTop="8dp"
+                app:layout_constraintTop_toTopOf="@+id/button_levels"
+                android:layout_marginBottom="8dp"
+                app:layout_constraintBottom_toBottomOf="@+id/button_fish_multiplayer"
+                android:layout_marginStart="20dp"
                 app:layout_constraintVertical_bias="0.516"
                 android:contentDescription="@string/description_image_corda"/>
         <Button
