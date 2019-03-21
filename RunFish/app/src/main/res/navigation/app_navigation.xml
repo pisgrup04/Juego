@@ -28,6 +28,7 @@
         <action android:id="@+id/action_menuFragment_to_friendsFragment" app:destination="@id/friendsFragment"/>
         <action android:id="@+id/action_menuFragment_to_options" app:destination="@id/options"/>
         <action android:id="@+id/action_menuFragment_to_statsFragment" app:destination="@id/statsFragment"/>
+        <action android:id="@+id/action_menuFragment_to_shopFragment" app:destination="@id/shopFragment"/>
     </fragment>
 
     <fragment android:id="@+id/singlePlayerFragment"
@@ -66,7 +67,9 @@
         <action android:id="@+id/action_statsFragment_to_menuFragment" app:destination="@id/menuFragment"/>
     </fragment>
     <fragment android:id="@+id/shopFragment" android:name="com.example.frponsll40alumnes.runfish.shopFragment"
-              android:label="fragment_shop" tools:layout="@layout/fragment_shop"/>
+              android:label="fragment_shop" tools:layout="@layout/fragment_shop">
+        <action android:id="@+id/action_shopFragment_to_menuFragment" app:destination="@id/menuFragment"/>
+    </fragment>
     <fragment android:id="@+id/gameFragment" android:name="com.example.frponsll40alumnes.runfish.GameFragment"
               android:label="fragment_game" tools:layout="@layout/fragment_game"/>
     <fragment android:id="@+id/inviteFragment" android:name="com.example.frponsll40alumnes.runfish.InviteFragment"
