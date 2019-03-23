@@ -88,4 +88,7 @@
               android:label="fragment_successfull" tools:layout="@layout/fragment_successfull"/>
     <fragment android:id="@+id/gameOverFragment3" android:name="com.example.frponsll40alumnes.runfish.GameOverFragment"
               android:label="fragment_game_over" tools:layout="@layout/fragment_game_over"/>
+    <fragment android:id="@+id/invitationRecieved"
+              android:name="com.example.frponsll40alumnes.runfish.InvitationRecieved"
+              android:label="fragment_invitation_recieved" tools:layout="@layout/fragment_invitation_received"/>
 </navigation>
