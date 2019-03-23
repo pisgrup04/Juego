@@ -90,5 +90,8 @@
               android:label="fragment_game_over" tools:layout="@layout/fragment_game_over"/>
     <fragment android:id="@+id/invitationRecieved"
               android:name="com.example.frponsll40alumnes.runfish.InvitationReceived"
-              android:label="fragment_invitation_recieved" tools:layout="@layout/fragment_invitation_received"/>
+              android:label="fragment_invitation_recieved" tools:layout="@layout/fragment_invitation_received">
+        <action android:id="@+id/action_invitationRecieved_to_multiplayerFragment"
+                app:destination="@id/multiplayerFragment"/>
+    </fragment>
 </navigation>

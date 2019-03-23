@@ -90,6 +90,7 @@
     <string name="invitationReceived_textViewMsg_invitationReceivedMsg">You have received an invitation from</string>
     <string name="invitationReceived_buttonAccept_acceptMsg">Accept</string>
     <string name="invitationReceived_buttonReject_rejectMsg">Reject</string>
+    <string name="invitationReceived_textView_invitingUserName_placeholder">Username placeholder</string>
 
 
 </resources>

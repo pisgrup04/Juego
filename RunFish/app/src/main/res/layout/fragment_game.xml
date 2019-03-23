@@ -116,17 +116,6 @@
                 android:layout_marginEnd="16dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 android:contentDescription="@string/description_image_pause"/>
-        <!--Botón temporal, solo para probar a recibir una invitacion-->
-        <Button
-                android:text="Receive invitation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/fragmentGame_temporalButton_receiveInvitation"
-                app:layout_constraintStart_toStartOf="parent"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                app:layout_constraintTop_toBottomOf="@+id/textView_capacity"
-                android:background="@color/disable_foreground_grey"/>
     </android.support.constraint.ConstraintLayout>
 
     <ImageView

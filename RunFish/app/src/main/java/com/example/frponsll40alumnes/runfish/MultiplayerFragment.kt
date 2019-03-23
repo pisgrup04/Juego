@@ -30,6 +30,10 @@ class MultiplayerFragment : Fragment() {
             fragment_invite_layout.bringToFront()
             fragment_invite_layout.visibility=View.VISIBLE
         }
+        fragmentMultiplayer_temporalButton_receiveInvitation.setOnClickListener {
+            fragment_invitationReceived_layout.bringToFront()
+            fragment_invitationReceived_layout.visibility = View.VISIBLE
+        }
 
     }
 }

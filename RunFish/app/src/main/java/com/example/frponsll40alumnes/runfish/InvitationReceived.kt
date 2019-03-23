@@ -14,6 +14,12 @@ private const val ARG_PARAM1 = "param1"
 private const val ARG_PARAM2 = "param2"
 
 /*
+    ----------------- FRAGMENT VS NOTIFICATION ----------------
+    ¿Debería intentar implementarlo con una notificación en lugar de un fragment?
+    https://developers.google.com/games/services/android/realtimeMultiplayer#from_the_invitation_inbox
+ */
+
+/*
     ----------------------- DESCRIPCIÓN --------------------------
     Fragmento que se muestra al recibir una invitación.
     Puede mostrar varias opciones:
@@ -39,7 +45,8 @@ class InvitationReceived : Fragment() {
         // ----------------------- Buttons listeners -----------------------
         invitationReceived_button_aceptar.setOnClickListener{
             // Si se acepta, navegar a la pantalla multijugador
-            //view.findNavController().navigate(R.id.fragment2) -- CRASH --
+            view.visibility = View.GONE
+            // joinParty()
         }
 
         invitationReceived_button_rechazar.setOnClickListener {
