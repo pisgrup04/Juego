@@ -85,4 +85,11 @@
     <string name="int_travelled_meters">150 METERS</string>
     <string name="game_over">GAME_OVER</string>
     <string name="retry">RETRY</string>
+
+    <!--Fragment InvitationReceived-->
+    <string name="invitationReceived_textViewMsg_invitationReceivedMsg">You have received an invitation from</string>
+    <string name="invitationReceived_buttonAccept_acceptMsg">Accept</string>
+    <string name="invitationReceived_buttonReject_rejectMsg">Reject</string>
+
+
 </resources>

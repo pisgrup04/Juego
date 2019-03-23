@@ -9,22 +9,23 @@
             android:layout_height="match_parent">
 
         <Button
-                android:text="Aceptar"
+                android:text="@string/invitationReceived_buttonAccept_acceptMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/invitationReceived_button_aceptar"
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginTop="44dp"
                 app:layout_constraintTop_toBottomOf="@+id/invitationReceived_textView_mensajeUnirte"
                 android:layout_marginStart="76dp"/>
         <TextView
-                android:text="User2 te ha invitado a unirte"
+                android:text="@string/invitationReceived_textViewMsg_invitationReceivedMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content" android:id="@+id/invitationReceived_textView_mensajeUnirte"
                 android:layout_marginTop="8dp"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="8dp"
-                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"/>
+                app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
         <Button
-                android:text="Rechazar"
+                android:text="@string/invitationReceived_buttonReject_rejectMsg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/invitationReceived_button_rechazar" app:layout_constraintEnd_toEndOf="parent"
